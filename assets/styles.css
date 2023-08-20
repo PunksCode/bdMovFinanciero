@@ -1,0 +1,115 @@
+/*//////////////////////////////////////////////////////////////////
+[ Table ]*/
+body{
+    background: #f7f7f7;
+    font-family: Montserrat-Regular, sans-serif;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+.lista {
+    padding: 0.5rem;
+    margin-right: 2rem;
+    list-style: none;
+    color: #fff;
+    background: #5C67ad;
+    font-size: 18px;
+    border: 2px solid #333961;
+    border-radius: 5px;
+    transition: background 0.3s, border 0.3s, text-transform 0.3s;
+}
+
+.lista:hover {
+    cursor: pointer;
+    background: #333961;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.title1{
+    text-align: center;
+    color: #333333;
+}
+.table {
+    width: 80%;
+    border: 1px solid #333961;
+    margin: 0 auto;
+    background: #6c7ae0;
+}
+.table:hover {
+    background: #f2f2f2;
+}
+.table th {
+    font-family: Montserrat-Medium;
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.4;
+    text-transform: uppercase;
+    background: #5C67ad;
+    text-align: center;
+}    
+th, td {
+    font-weight: unset;
+    padding-right: 10px;
+}
+.table td {
+font-family: Montserrat-Regular, sans-serif;
+font-size: 14px;
+color: #000000;
+line-height: 1.4;
+background: #f7f7f7;
+}
+.table tr:hover td {
+    background: #333961;
+    color: #fff;
+    cursor: pointer;
+}
+.btn__edit__delet{
+    color: #000000;
+    margin-left: 0.625rem;
+}
+.btn__edit__delet:hover{
+    color:#fff
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+}
+.footer__container{
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.contacto{
+    flex-direction: row;
+}
+.copyright{
+    font-weight: bold;
+}
+ /*colores de logos de los iconos*/
+ .fa-brands, .fa{
+    font-size: 30px;
+    width: 40px;
+ }
+  .fa-github{
+    color: #000000;
+  } 
+  .fa-facebook{
+    color:#0e4ac5;
+  }
+  .fa-linkedin{
+    color:#0077b5;
+  }
+  .fa-twitter{
+    color:#55acee;
+  }
+  .fa-instagram{
+    color:#c92bb7;
+  }
+  .fa-whatsapp{
+    color:#25d366;
+  }
